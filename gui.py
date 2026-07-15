@@ -28,7 +28,7 @@ root.configure(bg="#f8d7da")  # Light Pink
 title = tk.Label(
     root,
     text="Personal Finance Tracker",
-    font=("Arial", 22, "bold"),
+    font=("Verdana", 22, "bold"),
     bg="#f8d7da"
 )
 title.pack(pady=15)
@@ -171,7 +171,7 @@ def add():
 
         messagebox.showinfo(
             "Success",
-            "Transaction Added Successfully!"
+            "Transaction Added Successfully:)"
         )
 
     except ValueError:
